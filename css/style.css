@@ -1,0 +1,140 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    background-color: #3a4750;
+}
+h1 {
+    font-family: "Berkshire Swash", cursive;
+    margin: 50px auto 0;
+    color: #f6c90e;
+    font-size: 5.625rem;
+    line-height: 1;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #eeeeee;
+    padding-bottom: 10px;
+}
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #dbbc3e;
+}
+
+p{
+    color:#eeeeee;
+    margin-bottom: 60px;
+}
+.ragu {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.top-container {
+    background-color: #303841;
+    position: relative;
+    padding-top: 180px;
+}
+
+.moon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 200px;
+    top: 50px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+.bottom-cloud {
+    position: absolute;
+    left:170px;
+    bottom: 300px;
+}
+.skills{
+    margin-top: 100px;
+}
+
+
+.skill-row{
+    width: 50%; 
+    margin: 100px auto 100px auto ;
+    text-align: left;
+    line-height: 2;
+    
+    
+}
+.top-img{
+    border-radius: 50%;
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+.bottom-img{
+    width: 30%;
+    float: right;
+    padding-left: 30px;
+}
+p{
+    line-height: 2;
+}
+.profile{
+    margin: 60px 0 80px 0;
+    
+}
+hr{
+    border :dotted #f6c90e ;
+    border-width: 8px 0 0 0;
+    width: 5%;
+    margin: 0 auto;
+}
+.intro{
+    width: 40%;
+    margin: auto;
+}
+.bottom-container{
+    background-color: #303841;
+    padding: 50px 0 20px;
+}
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container a{
+    margin : 20px 20px;
+    font-size: 20px;
+    color:#a7d129 ;
+
+}
+.bottom-container a:hover{
+    color: #f6c90e;
+}
+.copyright{
+    color: #eeeeee;
+    font-size: 0.75rem;
+    padding: 20px 0px ;
+}
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn{
+    background-color: #a7d129;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 50px;
+    color: #303841;
+    
+}
+.btn:hover{
+    background: #f6c90e;
+    color: #eeeeee;
+}
